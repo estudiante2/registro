@@ -22,13 +22,13 @@ public class MainActivity2 extends AppCompatActivity {
         tx4 = (TextView)findViewById(R.id.tx4);
 
         String dato1 = getIntent().getStringExtra("dato1");
-        tx1.setText("Nombre : "+ dato1);
+        tx1.setText("   Nombre : "+ dato1);
         String dato2 = getIntent().getStringExtra("dato2");
-        tx2.setText("Apellido: "+ dato2);
+        tx2.setText("   Apellido: "+ dato2);
         String dato3 = getIntent().getStringExtra("dato3");
-        tx3.setText("Edad : "+ dato3);
+        tx3.setText("   Edad : "+ dato3);
         String dato4 = getIntent().getStringExtra("dato4");
-        tx4.setText("Correo : "+ dato4);
+        tx4.setText("   Correo : "+ dato4);
 
     }
     public void retro(View v){
